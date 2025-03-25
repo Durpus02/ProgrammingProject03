@@ -20,7 +20,7 @@ public class SpaceShuttlePayload {
             new Experiment(12, "Yeast Fermentation", 27, 4)
         );
 
-        // Sort experiments by weight (ascending)
+                // Sort experiments by weight (ascending)
         experiments.sort(Comparator.comparingInt(e -> e.weight));
         
         List<Experiment> selectedExperimentsW = new ArrayList<>();

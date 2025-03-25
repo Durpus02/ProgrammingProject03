@@ -1,4 +1,3 @@
-
 public class Experiment {
     int number;
     String name;
